@@ -61,13 +61,17 @@ body, html {
     left: 30%;
 }
 
-/* #my-work {
-    display: flex;
-} */
+#my-work {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
 
 /* Not sure why flex wasnt working when i applied it up above */
 
 /* need to find a way to center the contents in the card in the middle of the card  */
+
+/* also i would like to make the container itself smaller so i can still display 3 in a row for the full page but without it stretching from side to side */
 
 #my-work .cardContainer {
     display: flex;
