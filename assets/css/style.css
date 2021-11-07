@@ -59,3 +59,18 @@ body, html {
     left: 30%;
 }
 
+#my-work {
+    display: flex;
+}
+
+/* need to find a way to center the contents in the card in the middle of the card  */
+
+#my-work .cardContainer {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+
+#my-work .cardContainer:hover {
+    box-shadow: 0 4px 8px 0 cyan;
+}
+/* Still need to add hover elements to the cards and then also make them clickable */
