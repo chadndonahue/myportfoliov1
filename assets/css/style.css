@@ -23,9 +23,25 @@ header ul {
 
 header ul li {
     display: inline-block;
-
 }
 
 header ul li a {
     text-decoration: none;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* I would like to add another color only in the section behind the hero img */
+
+.hero {
+    background-image: url(/images/5a.j.jpg);
+    height: 50%;
+    width: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    border-radius: 50%;
 }
