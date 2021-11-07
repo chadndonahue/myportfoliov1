@@ -27,6 +27,8 @@ header ul li {
 
 /* I would like to make my links look better on the right side of my header */
 
+/* also need to add flex to both the hero and header links on the right */
+
 header ul li a {
     text-decoration: none;
 }
@@ -59,18 +61,39 @@ body, html {
     left: 30%;
 }
 
-#my-work {
+/* #my-work {
     display: flex;
-}
+} */
+
+/* Not sure why flex wasnt working when i applied it up above */
 
 /* need to find a way to center the contents in the card in the middle of the card  */
 
 #my-work .cardContainer {
+    display: flex;
+    display: inline-block;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    flex-wrap: wrap;
+    flex: 1 1 33%;
+    max-width: 33%;
+    margin: 0 auto;
+    
     
 }
 
 #my-work .cardContainer:hover {
     box-shadow: 0 4px 8px 0 cyan;
 }
+
 /* Still need to add hover elements to the cards and then also make them clickable */
+
+
+@media screen and (max-width: 992px) {
+    #my-work .cardContainer {
+        flex: 1 1 66.3%;
+        width: 66.3%;
+    }
+}
+
+
+/* as of right now it looks like there is a margin to the whole right side of the page */
