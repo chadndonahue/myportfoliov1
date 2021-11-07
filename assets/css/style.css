@@ -7,7 +7,7 @@
 header {
     display: flex;
     background-color: cyan;
-    padding: 20px;
+    padding: 1%;
 }
 
 header h1 {
@@ -16,9 +16,16 @@ header h1 {
 
 header ul {
     list-style-type: none;   
+    margin-left: 75%;
+    flex-wrap: wrap;
+    
 }
 
 header ul li {
     display: inline-block;
-    margin-left: auto;
+
+}
+
+header ul li a {
+    text-decoration: none;
 }
