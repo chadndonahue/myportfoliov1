@@ -75,8 +75,8 @@ body, html {
 
 /* whenever i shrink the page after doing the above mentioned thing there is now way more of a margin on the right side of the page */
 
-#my-work .cardContainer {
-    display: flex;
+.cardContainer {
+    display: inline-flex;
     /* display: inline-block; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     flex-wrap: wrap;
@@ -87,7 +87,7 @@ body, html {
     
 }
 
-#my-work .cardContainer:hover {
+.cardContainer:hover {
     box-shadow: 0 4px 8px 0 cyan;
 }
 
@@ -95,7 +95,7 @@ body, html {
 
 
 @media screen and (max-width: 992px) {
-    #my-work .cardContainer {
+    .cardContainer {
         flex: 1 1 66.3%;
         width: 66.3%;
     }
