@@ -40,7 +40,7 @@ body, html {
 /* I would like to add another color only in the section behind the hero img */
 
 .hero {
-    background-image: url(/images/5a.j.jpg);
+    background-image: url(../images/5a.j.jpg);
     height: 50%;
     width: 25%;
     background-position: center;
@@ -73,9 +73,11 @@ body, html {
 
 /* also i would like to make the container itself smaller so i can still display 3 in a row for the full page but without it stretching from side to side */
 
+/* whenever i shrink the page after doing the above mentioned thing there is now way more of a margin on the right side of the page */
+
 #my-work .cardContainer {
     display: flex;
-    display: inline-block;
+    /* display: inline-block; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     flex-wrap: wrap;
     flex: 1 1 33%;
